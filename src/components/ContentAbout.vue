@@ -15,6 +15,10 @@
           </h1>
         </div>
 
+        <div class="copyright">
+         <a href="https://blauensteiner-florian.com">© Blauensteiner Florian </a>
+        </div>
+
         <vue-particles
         color="#fff"
         :particleOpacity="0.9"

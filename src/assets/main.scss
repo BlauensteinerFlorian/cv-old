@@ -9,7 +9,20 @@ body, html{
   overflow-x: hidden;
   font-size: 19px;
 }
-
+.copyright
+{
+    a
+    {
+        color: #fff;
+    }
+    a:hover
+    {
+        text-decoration: underline;
+    }
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
 
 .navbar-column{
     position: fixed;
@@ -29,7 +42,16 @@ body, html{
 }
 .navbar-text:hover
 {
-    color: #DDD;
+    background-color: #2a2a2a;
+}
+.active
+{
+    color: #42b9f4;
+    background-color: #181818;
+    &:hover
+    {
+        background-color: #181818;
+    }
 }
 .navbar-img
 {
@@ -296,10 +318,6 @@ body, html
 .back-button
 {
     margin-right: 3rem;
-}
-body, html
-{
- //   overflow: unset;
 }
 }
 @media only screen and (max-width: 572px) {
