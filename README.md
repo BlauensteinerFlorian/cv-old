@@ -4,5 +4,3 @@
 ```
 npm install
 npm update
-
-Demo: https://blauensteiner-florian.com
